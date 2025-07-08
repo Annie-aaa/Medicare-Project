@@ -96,7 +96,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - These BANs offer immediate context for comparisons and performance benchmarking.
 
 ## 4.1. Readmissions Dashboard
-![alt text](image.png)
+![alt text](../Images/image.png)
 - This dashboard focuses on analyzing geographic and urban-rural patterns in hospital readmissions. It includes:
 
     - **Facility Readmission Table**: Lists facility IDs and names with their average excess readmission ratios, allowing filtering and direct lookup of underperforming or penalized facilities.
@@ -112,7 +112,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
         - **Average Excess Readmission Ratio by State**: Highlights which states are exceeding or staying below the CMS benchmark ratio. A global filter allows all charts to be segmented by medical condition (e.g., Heart Failure, COPD, etc.), revealing how outcomes vary across clinical categories and geographic areas.
 
 ### 4.1.1 Facility Readmission List 
-![alt text](image-4.png)
+![alt text](../Images/image-4.png)
 #### General Insights:
 **Facility Distribution**: Out of 3085 facilities, 2862 provide data on excess readmission ratios, showcasing a significant amount of actionable data. The remaining facilities likely have incomplete or unavailable data.
 
@@ -202,7 +202,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 
 - Cardiac conditions (Heart Attack & Heart Failure) frequently appear in both best and worst performer lists, reflecting how sensitive these metrics are to discharge planning, medication management, and coordinated care.
 ### 4.1.2.  Excess Readmission Ratio By RUCA 
-![alt text](image-5.png)
+![alt text](../Images/image-5.png)
 <BR>*Global Condition Filter: CABG*
 ### General Insights:
 #### Readmission Ratios Across RUCA Types:
@@ -258,7 +258,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - **RUCA with Ratios Below 1**: Remote rural area (0.99) and Micropolitan core (small urban centers) (0.99) show better performance, indicating that rural and small urban centers may have lower-than-expected readmission rates.
 
 ### 4.1.3. Number of Facilities by State 
-![alt text](image-6.png)
+![alt text](../Images/image-6.png)
 #### National Distribution Patterns
 - The map reveals a wide distribution of hospital facilities across the United States. Texas (284) and California (279) have the highest number of facilities, followed by Florida (167), Pennsylvania (134), New York (132), Ohio (119), and Illinois (116)—all states represented in the darkest hues of blue due to their concentration of hospitals. 
 - These states serve as key regions for analyzing readmission impacts and implementing interventions.
@@ -272,7 +272,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - These regions may face limitations in specialized care availability and could benefit from telehealth expansion and federal support initiatives.
 
 ### 4.1.4. Number of Discharges by State
-![alt text](image-7.png)
+![alt text](../Images/image-7.png)
 <BR>*Global Condition Filter: CABG*
 
 #### High Burden of Chronic Conditions in the South
@@ -296,13 +296,13 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - There are significant variations in CABG and Hip/Knee replacement volumes across states. For example, California (2.5k for CABG, 12.7k for THA/TKA) is performing much higher numbers of surgeries compared to Utah (NULL for CABG, 0.4k for THA/TKA) and Vermont (NULL for CABG, NULL for THA/TKA), which may be due to access disparities or differences in healthcare infrastructure.
 
 ### 4.1.5. Average Excess Readmissions Ratio (ERR) by State
-![alt text](image-8.png)
+![alt text](../Images/image-8.png)
 #### All Conditions
 - The Excess Readmission Ratios (ERR) for various states range from 0.94 (Idaho, North Dakota, South Dakota) to 1.04 (Massachusetts), with most states clustering around the ratio of 1. 
 - This indicates variability in readmission performance across states, with some states experiencing slightly higher or lower than expected readmissions.
 
 ## 4.2. Costs Dashboard
-![alt text](image-2.png)
+![alt text](../Images/image-2.png)
 - This dashboard evaluates the distribution and concentration of healthcare costs across regions and urbanization levels:
 
     - **Bar Charts by RUCA Description**:
@@ -323,7 +323,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
             : (based on distinct facility IDs from the costs dataset) Together, these views provide critical insights into where healthcare costs are highest, both in per-treatment and cumulative terms and whether rural or urban settings are more cost-intensive.
 
 ### 4.2.1. Average Medicare Payments by State
-![alt text](image-10.png)
+![alt text](../Images/image-10.png)
 #### Higher Average Medicare Payments:
 - **California (CA)**: With an average of **$20.2k**, California stands out as having the highest overall average Medicare payment, suggesting that medical facilities in this state may have more expensive procedures or a higher rate of Medicare reimbursement.
 - **New York (NY)**: At **$18.2k**, New York also demonstrates high Medicare spending, possibly due to more expensive health services or a larger elderly population requiring treatment.
@@ -341,7 +341,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - **Southern States** (e.g., Georgia (GA), Mississippi (MS), Louisiana (LA)): The Southern states, such as Georgia ($13.7k) and Louisiana ($11.5k), have more moderate to lower Medicare payments, suggesting more cost-conscious care or possibly lower levels of advanced healthcare infrastructure.
 
 ### 4.2.2 Total Medicare Payments by State
-![alt text](image-11.png)
+![alt text](../Images/image-11.png)
 #### High Payment States:
 - **California ($2.18B)**, **Florida ($1.65B)** and **New York ($1.68B)** have the largest Medicare payments, which correlates with their large senior populations and complex healthcare needs. 
 - These states also have higher healthcare service utilization due to factors such as higher rates of chronic conditions, higher population density, and a higher proportion of Medicare beneficiaries. 
@@ -368,7 +368,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - States with lower Medicare expenditures for these conditions, such as **Hawaii or Vermont**, may have less complex care needs, lower patient volumes, or more efficient management of chronic conditions, leading to fewer hospital admissions.
 
 ### 4.2.3 Number of Facilities by State (Costs)
-![alt text](image-12.png)
+![alt text](../Images/image-12.png)
 #### High Facility States:
 - States such as **California (263), Texas (237) and Florida (162)** have the highest number of facilities. These states, with large and diverse populations, likely require a significant number of healthcare facilities to support the demand for services, including those related to complex care and specialized treatments. 
 - The high number of facilities in these states suggests a robust healthcare infrastructure, which can lead to more competition and possibly higher operational costs due to the need for expansive networks, resource allocation and infrastructure upkeep.
@@ -398,7 +398,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - Similarly, other states with older populations may see increased facility numbers driven by demand for services like long-term care, memory care, and complex chronic disease management.
 
 ### 4.2.4. Average Medicare Payments by RUCA
-![alt text](image-13.png)
+![alt text](../Images/image-13.png)
 #### Higher Payments in Teaching/Research Hospitals:
 - Across various conditions (e.g., CABG, Heart Attack (AMI) and Heart Failure (HF)), the No RUCA (Teaching/Research Hospital) category generally shows the highest Medicare payments. 
 - For example, the CABG payment for Teaching Hospitals is $51k, which is significantly higher than in other regions, with small town core at $52k. 
@@ -432,7 +432,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - Conversely, Pneumonia treatments in remote rural areas cost $8k, a low figure that may reflect the lack of advanced diagnostic tools and treatments available in these settings.
 
 ## 4.3. Facilities Dashboard
-![alt text](image-3.png)
+![alt text](../Images/image-3.png)
 - This dashboard drills down to the facility level, analyzing the relationship between readmissions and both discharges and costs:
 
     - **Scatterplots**:
@@ -444,7 +444,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
     - **Matching Facilities Map**: A geographic map showing the count of facilities per state that are present in both datasets — useful for confirming completeness and data consistency when comparing costs and readmissions across the same provider pool.
 
 ### 4.3.1. Average Excess Readmission Ratio (ERR) by Average Medicare Payments for each Facility
-![alt text](image-14.png)
+![alt text](../Images/image-14.png)
 #### Weak Direct Correlation: 
 - Across all conditions, there is generally a weak or non-existent direct correlation between the average Medicare payments per facility and the average excess readmission ratio. 
 - This consistently suggests that the cost of care, as reflected by Medicare payments, is not the primary driver of hospital readmission rates. 
@@ -465,7 +465,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - The number of null values ranged from very low (CABG, Pneumonia) to moderate (Heart Attack, Hip/Knee Replacement), indicating varying levels of data completeness across conditions, which should be considered when interpreting the findings.
 
 ### 4.3.2. Average Excess Readmission Ratio (ERR) by Number of Discharges for each Facility
-![alt text](image-15.png)
+![alt text](../Images/image-15.png)
 #### Weak Correlation Persists with Outlier Identification: 
 - Even when differentiating facilities by outlier status and CMS penalty, the weak correlation between the number of discharges and the average excess readmission ratio remains consistent across all conditions. 
 - This reinforces that volume alone doesn't dictate readmission performance, regardless of a facility's outlier status or penalty.
@@ -484,7 +484,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - The largest group of facilities (light blue - no CMS penalty, not outliers) is distributed across all discharge volumes, highlighting that most facilities perform within an acceptable range relative to the national average.
 
 ### 4.3.3. Matching Facilities per State
-![alt text](image-16.png)
+![alt text](../Images/image-16.png)
 #### Varying Levels of Data Overlap 
 - The number of matching facilities per state varies significantly. 
 - For example, California (CA) has a high number of matching facilities (262), suggesting a strong overlap in data for that state. 
