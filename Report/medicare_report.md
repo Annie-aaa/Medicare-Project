@@ -1308,3 +1308,10 @@ Both scatterplots (Readmissions vs. Discharges and Readmissions vs. Medicare Pay
 
 This Tableau setup allows users to interactively drill down by condition, identify high-cost or high-readmission facilities, and assess how geography and urbanization impact healthcare outcomes and costs. The calculated fields, filters, and color codes all work together to enable informed decision-making for diverse healthcare stakeholders.
 
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).  
+You may use, share, and adapt the work for non-commercial purposes, provided you give appropriate credit.
+
+[View the full license](https://creativecommons.org/licenses/by-nc/4.0/)
+
