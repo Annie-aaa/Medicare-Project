@@ -432,7 +432,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - Conversely, Pneumonia treatments in remote rural areas cost $8k, a low figure that may reflect the lack of advanced diagnostic tools and treatments available in these settings.
 
 ## 4.3. Facilities Dashboard
-![alt text](../Images/image-3.png)
+![alt text](../Images/facilities.png)
 - This dashboard drills down to the facility level, analyzing the relationship between readmissions and both discharges and costs:
 
     - **Scatterplots**:
@@ -444,7 +444,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
     - **Matching Facilities Map**: A geographic map showing the count of facilities per state that are present in both datasets — useful for confirming completeness and data consistency when comparing costs and readmissions across the same provider pool.
 
 ### 4.3.1. Average Excess Readmission Ratio (ERR) by Average Medicare Payments for each Facility
-![alt text](../Images/image-14.png)
+![alt text](../Images/fpayments.png)
 #### Weak Direct Correlation: 
 - Across all conditions, there is generally a weak or non-existent direct correlation between the average Medicare payments per facility and the average excess readmission ratio. 
 - This consistently suggests that the cost of care, as reflected by Medicare payments, is not the primary driver of hospital readmission rates. 
@@ -465,7 +465,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - The number of null values ranged from very low (CABG, Pneumonia) to moderate (Heart Attack, Hip/Knee Replacement), indicating varying levels of data completeness across conditions, which should be considered when interpreting the findings.
 
 ### 4.3.2. Average Excess Readmission Ratio (ERR) by Number of Discharges for each Facility
-![alt text](../Images/image-15.png)
+![alt text](../Images/fdischarges.png)
 #### Weak Correlation Persists with Outlier Identification: 
 - Even when differentiating facilities by outlier status and CMS penalty, the weak correlation between the number of discharges and the average excess readmission ratio remains consistent across all conditions. 
 - This reinforces that volume alone doesn't dictate readmission performance, regardless of a facility's outlier status or penalty.
@@ -484,7 +484,7 @@ Facilities with missing, unmatched, or incomplete data were excluded to preserve
 - The largest group of facilities (light blue - no CMS penalty, not outliers) is distributed across all discharge volumes, highlighting that most facilities perform within an acceptable range relative to the national average.
 
 ### 4.3.3. Matching Facilities per State
-![alt text](../Images/image-16.png)
+![alt text](../Images/fmap.png)
 #### Varying Levels of Data Overlap 
 - The number of matching facilities per state varies significantly. 
 - For example, California (CA) has a high number of matching facilities (262), suggesting a strong overlap in data for that state. 
